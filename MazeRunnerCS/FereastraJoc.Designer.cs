@@ -43,7 +43,7 @@
             this.labirint.Image = ((System.Drawing.Image)(resources.GetObject("labirint.Image")));
             this.labirint.Location = new System.Drawing.Point(0, 0);
             this.labirint.Name = "labirint";
-            this.labirint.Size = new System.Drawing.Size(800, 450);
+            this.labirint.Size = new System.Drawing.Size(448, 450);
             this.labirint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.labirint.TabIndex = 0;
             this.labirint.TabStop = false;
@@ -54,7 +54,7 @@
             // caracter
             // 
             this.caracter.BackColor = System.Drawing.Color.Transparent;
-            this.caracter.Location = new System.Drawing.Point(407, 425);
+            this.caracter.Location = new System.Drawing.Point(230, 425);
             this.caracter.Name = "caracter";
             this.caracter.Size = new System.Drawing.Size(29, 25);
             this.caracter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -75,12 +75,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(448, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.caracter);
             this.Controls.Add(this.labirint);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(466, 497);
+            this.MinimumSize = new System.Drawing.Size(466, 497);
             this.Name = "FereastraJoc";
-            this.Text = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.Text = "Maze Runner";
             this.SizeChanged += new System.EventHandler(this.FereastraJoc_SizeChanged);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.FereastraJoc_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.labirint)).EndInit();
